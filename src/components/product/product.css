@@ -1,0 +1,26 @@
+.product{
+    display: grid;
+    /* grid-template-columns:2fr 3fr; */
+    grid-template-columns:1fr .5fr 3fr;
+    margin-right: 5px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 50px;
+
+}
+ .product img{
+    margin-right:10px;
+} 
+.product-name{
+    color: blue;
+    font-weight: 400;
+    
+}
+.product-btn{
+    background-color: goldenrod;
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    cursor: pointer;
+}
